@@ -22,3 +22,44 @@
   scrollbar-width: thin;
   scrollbar-color: rgba(99, 102, 241, 0.5) rgba(0, 0, 0, 0.2);
 }
+/* Markdown Typography Polish */
+.markdown-content h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #818cf8;
+}
+.markdown-content h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #a78bfa;
+  border: none;
+  padding: 0;
+}
+.markdown-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.markdown-content p {
+  margin-bottom: 0.75rem;
+  color: #cbd5e1;
+}
+.markdown-content ul,
+.markdown-content ol {
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
+  list-style-type: disc;
+}
+.markdown-content li {
+  margin-bottom: 0.25rem;
+  color: #e2e8f0;
+}
+.markdown-content strong {
+  color: #fff;
+  font-weight: 600;
+}
