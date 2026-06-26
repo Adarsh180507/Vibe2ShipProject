@@ -33,6 +33,19 @@ const TaskSchema = new mongoose.Schema(
       type: String, // Store proactive AI breakdown or schedule advice here
       default: "",
     },
+    // NEW: Added subTasks array to store the AI's breakdown
+    subTasks: [
+      {
+        text: {
+          type: String,
+          required: true,
+        },
+        completed: {
+          type: Boolean,
+          default: false,
+        },
+      },
+    ],
   },
   {
     timestamps: true,
